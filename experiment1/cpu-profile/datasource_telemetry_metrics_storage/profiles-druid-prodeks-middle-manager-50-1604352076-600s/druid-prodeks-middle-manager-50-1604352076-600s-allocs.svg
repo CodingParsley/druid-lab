@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" width="1200" height="214" onload="init(evt)" viewBox="0 0 1200 214" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" width="1200" height="86" onload="init(evt)" viewBox="0 0 1200 86" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <style type="text/css">
 	text { font-family:Verdana; font-size:12px; fill:rgb(0,0,0); }
 	#search { opacity:0.1; cursor:pointer; }
@@ -328,46 +328,10 @@
 </script>
 <rect x="0" y="0" width="100%" height="100%" fill="rgb(240,240,220)"/>
 <text id="title" x="600" y="24">Flame Graph</text>
-<text id="details" x="10" y="197"> </text>
+<text id="details" x="10" y="69"> </text>
 <text id="unzoom" x="10" y="24" class="hide">Reset Zoom</text>
 <text id="search" x="1090" y="24">Search</text>
-<text id="matched" x="1090" y="197"> </text>
+<text id="matched" x="1090" y="69"> </text>
 <g id="frames">
-<g>
-<title>all (21 samples, 100.00%)</title><rect x="10.0" y="163.0" width="1180.0" height="15" fill="#fe8181" rx="2" ry="2"/>
-<text x="13.0" y="174.0">all</text>
-</g>
-<g>
-<title>java/lang/Thread.run (21 samples, 100.00%)</title><rect x="10.0" y="147.0" width="1180.0" height="15" fill="#66f766" rx="2" ry="2"/>
-<text x="13.0" y="158.0">java/lang/Thread.run</text>
-</g>
-<g>
-<title>org/eclipse/jetty/util/thread/QueuedThreadPool$2.run (21 samples, 100.00%)</title><rect x="10.0" y="131.0" width="1180.0" height="15" fill="#60f160" rx="2" ry="2"/>
-<text x="13.0" y="142.0">org/eclipse/jetty/util/thread/QueuedThreadPool$2.run</text>
-</g>
-<g>
-<title>org/eclipse/jetty/util/thread/QueuedThreadPool.runJob (21 samples, 100.00%)</title><rect x="10.0" y="115.0" width="1180.0" height="15" fill="#5ced5c" rx="2" ry="2"/>
-<text x="13.0" y="126.0">org/eclipse/jetty/util/thread/QueuedThreadPool.runJob</text>
-</g>
-<g>
-<title>org/eclipse/jetty/server/AbstractConnector$Acceptor.run (21 samples, 100.00%)</title><rect x="10.0" y="99.0" width="1180.0" height="15" fill="#6dfe6d" rx="2" ry="2"/>
-<text x="13.0" y="110.0">org/eclipse/jetty/server/AbstractConnector$Acceptor.run</text>
-</g>
-<g>
-<title>org/eclipse/jetty/server/ServerConnector.accept (21 samples, 100.00%)</title><rect x="10.0" y="83.0" width="1180.0" height="15" fill="#53e453" rx="2" ry="2"/>
-<text x="13.0" y="94.0">org/eclipse/jetty/server/ServerConnector.accept</text>
-</g>
-<g>
-<title>sun/nio/ch/ServerSocketChannelImpl.accept (21 samples, 100.00%)</title><rect x="10.0" y="67.0" width="1180.0" height="15" fill="#51e251" rx="2" ry="2"/>
-<text x="13.0" y="78.0">sun/nio/ch/ServerSocketChannelImpl.accept</text>
-</g>
-<g>
-<title>sun/nio/ch/ServerSocketChannelImpl.isBound (21 samples, 100.00%)</title><rect x="10.0" y="51.0" width="1180.0" height="15" fill="#63f463" rx="2" ry="2"/>
-<text x="13.0" y="62.0">sun/nio/ch/ServerSocketChannelImpl.isBound</text>
-</g>
-<g>
-<title>java.lang.Object (21 samples, 100.00%)</title><rect x="10.0" y="35.0" width="1180.0" height="15" fill="#60cece" rx="2" ry="2"/>
-<text x="13.0" y="46.0">java.lang.Object</text>
-</g>
 </g>
 </svg>
